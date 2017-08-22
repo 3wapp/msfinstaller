@@ -27,3 +27,20 @@ Then do the following:
 You may need to logout and log back in to properly set your bashrc settings.
 
 All Credit goes to Dark Operator for original script
+
+## another
+
+1、安装msf
+
+1.1、打开终端，进入安装目录（你想放在哪就进哪
+
+cd /opt
+
+curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb -o msfinstall
+
+1.2、chmod 755 msfinstall
+
+1.3、./msfinstall
+
+1.4 msfconsole
+	....?	yes
